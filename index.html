@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="./script/data.js" defer></script>
+
+</head>
+
+<body>
+
+</body>
+<!--NAVBAR header-->
+<nav class="bg-white border-b border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="flex flex-col md:flex-row md:items-center md:justify-between py-4 gap-4">
+
+            <!-- Brand -->
+            <a href="#" class="text-2xl font-bold text-gray-900">
+                Auto-on-Demand
+            </a>
+
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="relative h-[70vh] bg-cover bg-center"
+    style="background-image: url('https://c4.wallpaperflare.com/wallpaper/572/103/624/cars-mater-tow-truck-wallpaper-preview.jpg');">
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-black/80"></div>
+
+    <!-- Content -->
+    <div class="relative z-10 flex h-full items-center">
+        <div class="max-w-6xl mx-auto px-6 text-white">
+
+            <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-4">
+                Find Nearby Towing & Roadside Assistance
+            </h1>
+
+            <p class="text-lg md:text-xl text-gray-200 max-w-2xl mb-8">
+                Connect with trusted towing operators near your location.
+                Fast response. Transparent contact information. Available when you need help.
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="#operators"
+                    class="px-6 py-3 bg-white text-black font-semibold rounded-lg hover:bg-gray-100 text-center">
+                    Find Operators Nearby
+                </a>
+
+                <a href="#coverage"
+                    class="px-6 py-3 border border-white text-white rounded-lg hover:bg-white hover:text-black text-center">
+                    Coverage Areas
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Problem Statement -->
+<section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="text-center mb-10">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                Why Auto-on-Demand?
+            </h2>
+
+            <p class="text-gray-600 max-w-2xl mx-auto">
+                Vehicle breakdowns are stressful. Finding the right towing operator
+                shouldn't be.
+            </p>
+        </div>
+
+        <div class="flex gap-6 overflow-x-auto snap-x snap-mandatory pb-4">
+
+            <div class="min-w-[320px] md:min-w-[400px] bg-white rounded-2xl p-8 shadow-md snap-center">
+                <h3 class="text-2xl font-bold mb-4">
+                    Long Wait Times
+                </h3>
+
+                <p class="text-gray-600">
+                    Drivers often spend valuable time calling multiple contacts before
+                    finding available assistance.
+                </p>
+            </div>
+
+            <div class="min-w-[320px] md:min-w-[400px] bg-white rounded-2xl p-8 shadow-md snap-center">
+                <h3 class="text-2xl font-bold mb-4">
+                    Higher Costs
+                </h3>
+
+                <p class="text-gray-600">
+                    Towing operators coming from distant locations may increase the total
+                    cost of recovery.
+                </p>
+            </div>
+
+            <div class="min-w-[320px] md:min-w-[400px] bg-white rounded-2xl p-8 shadow-md snap-center">
+                <h3 class="text-2xl font-bold mb-4">
+                    Limited Visibility
+                </h3>
+
+                <p class="text-gray-600">
+                    Many motorists simply don't know which towing operators are closest
+                    when emergencies occur.
+                </p>
+            </div>
+
+            <div class="min-w-[320px] md:min-w-[400px] bg-white rounded-2xl p-8 shadow-md snap-center">
+                <h3 class="text-2xl font-bold mb-4">
+                    Stressful Emergencies
+                </h3>
+
+                <p class="text-gray-600">
+                    During breakdowns, every minute matters. Quick access to nearby help
+                    can make all the difference.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- Find operators nearby-->
+<section id="operators" class="py-20 px-6 bg-white">
+    <div class="max-w-7xl mx-auto">
+
+        <!-- header -->
+
+        <!-- filters -->
+
+        <div id="operator-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        </div>
+
+    </div>
+</section>
+
+<section class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-6">
+
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                How It Works
+            </h2>
+
+            <p class="text-gray-600">
+                Get connected with towing assistance in three simple steps.
+            </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+
+            <div class="bg-white p-6 rounded-2xl">
+                <div class="text-4xl mb-4">📍</div>
+                <h3 class="font-bold text-xl mb-2">
+                    Find Nearby Operators
+                </h3>
+                <p class="text-gray-600">
+                    Browse available towing operators closest to your location.
+                </p>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl">
+                <div class="text-4xl mb-4">📞</div>
+                <h3 class="font-bold text-xl mb-2">
+                    Contact Directly
+                </h3>
+                <p class="text-gray-600">
+                    Call or message the operator and discuss pricing and pickup details.
+                </p>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl">
+                <div class="text-4xl mb-4">🚚</div>
+                <h3 class="font-bold text-xl mb-2">
+                    Get Assistance
+                </h3>
+                <p class="text-gray-600">
+                    The operator arrives and helps transport your vehicle safely.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- footer -->
+<footer class="bg-black text-white py-10">
+    <div class="max-w-6xl mx-auto px-6">
+        <p class="text-center">
+            &copy; 2023 Towing Service. All rights reserved.
+        </p>
+    </div>
+</footer>
+
+</html>

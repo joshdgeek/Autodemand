@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Operator 1",
+        "area": "Oshodi",
+        "coverage": [
+            "Oshodi",
+            "Mushin",
+            "Ilupeju"
+        ],
+        "phone": "+2349117832675",
+        "whatsapp": "2349117832675",
+        "availability": "24/7",
+        "service": "Vehicle Recovery & Towing"
+    },
+    {
+        "id": 2,
+        "name": "Operator 2",
+        "area": "Egbeda",
+        "coverage": [
+            "Egbeda",
+            "Akowonjo",
+            "Idimu"
+        ],
+        "phone": "+2348144796470",
+        "whatsapp": "2348144796470",
+        "availability": "24/7",
+        "service": "Vehicle Recovery & Towing"
+    },
+    {
+        "id": 3,
+        "name": "Operator 3",
+        "area": "Berger",
+        "coverage": [
+            "Berger",
+            "Ojodu",
+            "Magodo"
+        ],
+        "phone": "+2348033015891",
+        "whatsapp": "2348033015891",
+        "availability": "24/7",
+        "service": "Vehicle Recovery & Towing"
+    }
+]
