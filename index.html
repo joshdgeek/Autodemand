@@ -133,6 +133,37 @@
     <div class="max-w-7xl mx-auto">
 
         <!-- header -->
+        <div class="max-w-md mx-auto mb-10">
+            <label for="location" class="block mb-2 text-sm font-semibold text-gray-700">
+                Select Your Location
+            </label>
+
+            <div class="relative">
+                <select id="location"
+                    class="w-full appearance-none rounded-xl border border-gray-300 bg-white px-5 py-4 pr-12 text-gray-700 shadow-sm outline-none transition focus:border-black focus:ring-2 focus:ring-black/10 cursor-pointer">
+
+                    <option value="all">📍 Choose your location</option>
+                    <option value="ipaja">Ipaja</option>
+                    <option value="egbeda">Egbeda</option>
+                    <option value="oshodi">Oshodi</option>
+                    <option value="berger">Berger</option>
+                    <option value="ikeja">Ikeja</option>
+                    <option value="apapa">Apapa</option>
+                    <option value="ikorodu">Ikorodu</option>
+
+                </select>
+
+                <!-- Dropdown Arrow -->
+                <div class="pointer-events-none absolute inset-y-0 right-4 flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-500" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+
+                    </svg>
+                </div>
+            </div>
+        </div>
 
         <!-- filters -->
 
